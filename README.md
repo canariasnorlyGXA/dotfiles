@@ -5,8 +5,6 @@
 
 # Some problems and solutions upon setup:
 
-## A.
+## 1.  There was a problem with the editor 'vi'
 
-*Problem:*  `"error: There was a problem with the editor 'vi'"`
-
-*Solution:* `$ git config --global core.editor $(which vim)`
+Try running `$ git config --global core.editor $(which vim)`
